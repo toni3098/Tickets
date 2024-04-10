@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.container {
+  margin-left: 150px;
+}
+.ticket {
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.ticket h3 {
+  margin-bottom: 8px;
+}
+
+.ticket-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket-info-item {
+  margin-bottom: 8px;
+}
+
+.button {
+}
